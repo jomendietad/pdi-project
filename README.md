@@ -162,11 +162,11 @@ Para evaluar el rendimiento del modelo se utilizaron métricas comunes en segmen
 
 Mide el porcentaje de píxeles clasificados correctamente respecto al total de píxeles evaluados.
 
-### mIoU
+### IoU
 
 El mean Intersection over Union mide el promedio de intersección sobre unión entre la máscara predicha y la máscara real para las clases evaluadas.
 
-### mDice
+### Dice
 
 El mean Dice Score mide la similitud promedio entre las regiones predichas y las regiones reales.
 
@@ -182,13 +182,13 @@ Los principales resultados del experimento fueron:
 
 | Métrica                  |  Valor |
 | ------------------------ | -----: |
-| Mejor mIoU en validación | 0.4890 |
-| Test loss                | 0.9810 |
+| Mejor IoU en validación | 0.4890 |
+| Test Loss                | 0.9810 |
 | Test pixel accuracy      | 0.8652 |
-| Test mIoU                | 0.4090 |
-| Test mDice               | 0.5288 |
+| Test IoU                | 0.4090 |
+| Test Dice               | 0.5288 |
 
-Estos resultados muestran que el modelo logra una buena precisión general por píxel, aunque la métrica mIoU evidencia que la segmentación por clase puede seguir mejorando, especialmente en clases pequeñas o menos frecuentes.
+Estos resultados muestran que el modelo logra una buena precisión general por píxel, aunque la métrica IoU evidencia que la segmentación por clase puede seguir mejorando, especialmente en clases pequeñas o menos frecuentes.
 
 ---
 
@@ -374,8 +374,8 @@ Los resultados obtenidos muestran un desempeño aceptable para un proyecto acad�
 Proyecto desarrollado por:
 
 ```text
-jomendietad  jomendietad@unal.edu.co
-Sebastian-Torres-Gamboa setorresg@unal.edu.co
+jomendietad  jomendietad@unal.edu.co Johan Sebastian Mendieta Dilbert
+Sebastian-Torres-Gamboa setorresg@unal.edu.co Sebastian Torres Gamboa
 ```
 
 ---
