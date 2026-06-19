@@ -4,6 +4,17 @@ Este directorio contiene los archivos de configuración y la bitácora de automa
 
 Este espacio actúa como un registro transparente de la canalización (*pipeline*) de despliegue para la evaluación del proyecto de Procesamiento Digital de Imágenes.
 
+## Entorno de Despliegue
+
+Esta aplicación se encuentra desplegada y funcionando a través de Hugging Face Spaces. 
+
+* **Aplicación en vivo:** [https://huggingface.co/spaces/jomendietad/pdi-project](https://huggingface.co/spaces/jomendietad/pdi-project)
+* **Framework utilizado:** Gradio / Streamlit *(Nota: ajusta esto según lo que estés usando)*
+
+Todos los archivos contenidos en este directorio están destinados a dicho entorno. Las dependencias listadas en el archivo `requirements.txt` y la lógica principal contenida en `app.py` son leídas y ejecutadas directamente por Hugging Face para construir la aplicación web.
+
+---
+
 ## Estructura del Directorio
 
 * `Despliegue_Modelo_Proyecto_PDI.ipynb`: Notebook principal que ejecuta de extremo a extremo el flujo de compilación, optimización y publicación automática.

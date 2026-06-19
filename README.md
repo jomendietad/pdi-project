@@ -133,6 +133,15 @@ Además, la U-Net utiliza conexiones entre el encoder y el decoder para conserva
 
 ---
 
+## Demostración en Vivo
+
+El modelo se encuentra desplegado y puede ser evaluado de forma interactiva. Puedes acceder a la aplicación en funcionamiento a través del siguiente enlace: 
+[Hugging Face Space: PDI Project](https://huggingface.co/spaces/jomendietad/pdi-project)
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/jomendietad/pdi-project)
+
+---
+
 ## Configuración del experimento
 
 La configuración principal usada en el entrenamiento fue:
