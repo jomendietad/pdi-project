@@ -9,7 +9,7 @@ Este espacio actúa como un registro transparente de la canalización (*pipeline
 Esta aplicación se encuentra desplegada y funcionando a través de Hugging Face Spaces. 
 
 * **Aplicación en vivo:** [https://huggingface.co/spaces/jomendietad/pdi-project](https://huggingface.co/spaces/jomendietad/pdi-project)
-* **Framework utilizado:** Gradio / Streamlit *(Nota: ajusta esto según lo que estés usando)*
+* **Framework utilizado:** Gradio
 
 Todos los archivos contenidos en este directorio están destinados a dicho entorno. Las dependencias listadas en el archivo `requirements.txt` y la lógica principal contenida en `app.py` son leídas y ejecutadas directamente por Hugging Face para construir la aplicación web.
 
